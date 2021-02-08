@@ -1,0 +1,124 @@
+.topbar{
+    margin-top:40px;
+
+    .topbar-content{
+        text-align:right;
+
+        .contact-info{
+            ul{
+
+                li{
+                    display:inline-block;
+
+                    a{
+                        font-size:14px;
+                        color:rgb(119, 119, 119);
+                        margin:0px 10px;
+
+                        svg{
+                            padding-right:10px;
+                            font-size:12px;
+                        }
+                    }
+                }
+            }
+        }
+
+        
+    }
+
+}
+
+//Menu Start here
+
+.main-menu{
+
+    .menu-content{
+        @include clearfix;
+        .logo{
+            width:30%;
+            float:left;
+
+            img{
+                width:auto;
+                height:60px;
+            }
+        }
+        .menu{
+            width:60%;
+            float:left;
+            text-align:right;
+            margin-top:28px;
+
+            ul{
+
+                li{
+                    display:inline-block;
+
+                    a{
+                        display:block;
+                        text-transform:uppercase;
+                        margin:0px 13px;
+                        font-size:12px;
+                        color: #0074E8;
+                        font-weight:700;
+
+                        &:hover{
+                            border-bottom:3px solid #0074E8;
+                        }
+                    }
+                    #active{
+                        background:#0088CC;
+                        color:#fff;
+                        padding:12px 17px;
+                        border-radius:5px;
+                    }
+                }
+            }
+        }
+        .social-icon{
+            width:10%;
+            float:left;
+            text-align:right;
+            margin-top:32px;
+
+            ul{
+                li{
+                    display:inline-block;
+
+                    a{
+                        transition: all .2s ease;
+                        display: block;
+                        text-align: center;
+                        
+                        
+
+                        svg{
+                            height: 15px;
+                            width: 15px;
+                            font-size:12px;
+                            border-radius: 100%;
+                            background:rgb(255, 255, 255);
+                            box-shadow:rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+                            color:black;
+                            padding:7px;
+
+
+                            &:hover{
+                                background:#0074E8;
+                                color:#fff;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
